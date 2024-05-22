@@ -2,9 +2,9 @@
 
 namespace Kiukishenkaec\Supervisor;
 
+use Kiukishenkaec\Supervisor\Commands\SupervisorCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Kiukishenkaec\Supervisor\Commands\SupervisorCommand;
 
 class SupervisorServiceProvider extends PackageServiceProvider
 {
